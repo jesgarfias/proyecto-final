@@ -1,0 +1,6 @@
+const Excersice=()=>{
+    return(
+        <svg width="100" height="100" viewBox="0 0 64 64" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><defs><style>{`.cls-1 { fill: #231f20; }`}</style></defs><path class="cls-1" d="M11.67 37.36h-3a1 1 0 0 1-1-1v-8.72a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v8.72a1 1 0 0 1-1 1m-2-2h1v-6.72h-1Z"/><path class="cls-1" d="M15.67 39.59h-4a1 1 0 0 1-1-1V25.41a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v13.18a1 1 0 0 1-1 1m-3-2h2V26.41h-2Z"/><path class="cls-1" d="M22.32 42h-6.65a1 1 0 0 1-1-1V23a1 1 0 0 1 1-1h6.65a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1m-5.65-2h4.65V24h-4.65Zm38.66-2.64h-3a1 1 0 0 1-1-1v-8.72a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v8.72a1 1 0 0 1-1 1m-2-2h1v-6.72h-1Z"/><path class="cls-1" d="M52.32 39.59h-4a1 1 0 0 1-1-1V25.41a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v13.18a1 1 0 0 1-1 1m-3-2h2V26.41h-2Z"/><path class="cls-1" d="M48.32 42h-6.65a1 1 0 0 1-1-1V23a1 1 0 0 1 1-1h6.65a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1m-5.65-2h4.65V24h-4.65Z"/><path class="cls-1" d="M41.67 35H22.32a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h19.35a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1m-18.35-2h17.35v-2H23.32Z"/></svg>
+    )
+}
+export default Excersice;
