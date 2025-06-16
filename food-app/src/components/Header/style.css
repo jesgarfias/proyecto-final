@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #70abc7;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: 1em;
+    font-family: "Poppins", serif;
+    padding: 1rem;
+    transition: all ease 0.2s;
+    display: none;
+}

@@ -9,11 +9,11 @@ const initialState={
     error:''
 }
 
-export const fetchProducts=createAsyncThunk('product/fetchProducts',()=>{
+export const fetchProducts=createAsyncThunk('product/fetchProducts',(query)=>{ // cambio  () por (query)
     return axios.get('https://api.spoonacular.com/food/products/search', {
         params:{
-            apiKey:"d993df72284d4dcc82bdb7a2506321ca",
-            query:'protein'
+            apiKey:process.env.REACT_APP_SPOONACULAR_KEY,
+            query:query //cambio 'protein' por query
         }
     })
     .then(resp=>resp.data.products)

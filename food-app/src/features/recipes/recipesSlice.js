@@ -10,7 +10,7 @@ const initialState={
 export const fetchRecipes=createAsyncThunk('recipes/fetchRecipes', (diet)=>{
     return axios.get('https://api.spoonacular.com/recipes/complexSearch',{
         params:{
-            apiKey:"d993df72284d4dcc82bdb7a2506321ca",
+            apiKey:process.env.REACT_APP_SPOONACULAR_KEY,
             diet:diet,
         }
         })

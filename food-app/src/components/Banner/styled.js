@@ -6,13 +6,18 @@ const BannerImage=styled.img`
     margin: auto;
     display: flex;
     justify-content: center;
+    width: 95%;
 `
 const BannerText=styled.div`
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
     color: #333;
     display: flex;
     justify-content: center;
+    text-align: center;
+    @media screen and (max-width: 950px){
+        font-size: 1.5em;
+    }
 `
 export{
     BannerSectionContainer,
